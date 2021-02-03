@@ -20,6 +20,8 @@ To get lighthouse test results for `https://example.com`, run:
 npm start https://example.com
 ```
 
+This will run 10 trials. It'll display the performance score of each and the mean of all 10.
+
 ## License
 
 GPL-2.0-or-later
