@@ -12,10 +12,8 @@ const {URL} = require('url');
   const {lhr} = await lighthouse(url, {
     port: (new URL(browser.wsEndpoint())).port,
     output: 'json',
-    logLevel: 'info',
   })
 
-  console.log(`Lighthouse scores: ${Object.values(lhr.categories).map(c => c.score).join(', ')}`)
   console.log(`The performance score is: ${lhr.categories.performance.score}`)
 
   await browser.close();
