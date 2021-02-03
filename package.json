@@ -4,7 +4,7 @@
   "description": "Get Lighhouse scores from a headless browser",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,12 @@
   "bugs": {
     "url": "https://github.com/kienstra/headless-lighthouse/issues"
   },
-  "homepage": "https://github.com/kienstra/headless-lighthouse#readme"
+  "homepage": "https://github.com/kienstra/headless-lighthouse#readme",
+  "dependencies": {
+    "chrome-launcher": "0.13.4",
+    "lighthouse": "7.0.1",
+    "playwright": "1.8.0",
+    "request": "2.88.2",
+    "util": "0.12.3"
+  }
 }
