@@ -1,0 +1,23 @@
+{
+  "name": "headless-lighthouse",
+  "version": "0.1.0",
+  "description": "Get Lighhouse scores from a headless browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kienstra/headless-lighthouse.git"
+  },
+  "keywords": [
+    "lighthouse",
+    "headless"
+  ],
+  "author": "Ryan Kienstra",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/kienstra/headless-lighthouse/issues"
+  },
+  "homepage": "https://github.com/kienstra/headless-lighthouse#readme"
+}
