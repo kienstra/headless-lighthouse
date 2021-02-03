@@ -15,7 +15,7 @@
     "headless"
   ],
   "author": "Ryan Kienstra",
-  "license": "GPL-3.0",
+  "license": "GPL-2.0-or-later",
   "bugs": {
     "url": "https://github.com/kienstra/headless-lighthouse/issues"
   },
@@ -23,8 +23,7 @@
   "dependencies": {
     "chrome-launcher": "0.13.4",
     "lighthouse": "7.0.1",
-    "playwright": "1.8.0",
-    "request": "2.88.2",
-    "util": "0.12.3"
+    "puppeteer": "7.0.0",
+    "request": "2.88.2"
   }
 }
