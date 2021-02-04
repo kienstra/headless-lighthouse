@@ -1,6 +1,6 @@
 # headless-lighthouse
 
-> Get Lighthouse scores from a headless browser.
+> Get Lighthouse scores from a headless Chromium browser.
 
 ## Install
 
