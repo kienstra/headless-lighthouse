@@ -22,7 +22,7 @@ npm start https://example.com
 
 This will run 10 trials. It'll display the performance score of each and the mean of all 10:
 
-```bash
+```
 $ npm start https://twitter.com/wordpress
 
 Getting Lighthouse performance scores for mobile and desktop… 
