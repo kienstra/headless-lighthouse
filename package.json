@@ -1,7 +1,7 @@
 {
   "name": "headless-lighthouse",
   "version": "0.1.0",
-  "description": "Get Lighhouse scores from a headless browser",
+  "description": "Get Lighthouse scores from a headless browser",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
