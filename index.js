@@ -28,11 +28,11 @@ async function getPerformanceScore(screen) {
 }
 
 /**
- * Gets Lighthouse performance reports for a given screen type.
+ * Runs Lighthouse performance reports for a given screen type.
  *
  * @param {string} screen Either 'desktop' or 'mobile'.
  */
-async function getReports(screen) {
+async function runReports(screen) {
   const results = []
   const numberOfTrials = 10
   for (let i = 1; i <= numberOfTrials; i++) {
@@ -47,6 +47,6 @@ async function getReports(screen) {
 
 (async () => {
   console.log('Getting Lighthouse performance scores for mobile and desktop… \n')
-  await getReports('mobile')
-  await getReports('desktop')
+  await runReports('mobile')
+  await runReports('desktop')
 })()
