@@ -20,7 +20,7 @@ To get [Lighthouse](https://developers.google.com/web/tools/lighthouse/) test re
 npm start https://example.com
 ```
 
-This will run 10 trials. It'll display the performance score of each and the mean of all 10:
+This will run 10 trials on mobile and 10 on desktop.
 
 ```
 $ npm start https://twitter.com/wordpress
