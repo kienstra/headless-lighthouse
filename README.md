@@ -14,7 +14,7 @@ npm install
 npm start <url>
 ```
 
-To get lighthouse test results for `https://example.com`, run:
+To get [Lighthouse](https://developers.google.com/web/tools/lighthouse/) test results for `https://example.com`, run:
 
 ```bash
 npm start https://example.com
