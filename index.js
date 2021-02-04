@@ -12,18 +12,18 @@ async function getPerformanceScore(screen) {
   const url = process.argv.slice(2);
   const browser = await puppeteer.launch({
     defaultViewport: null,
-    headless: false,
   })
 
   const {lhr} = await lighthouse(url, {
     port: (new URL(browser.wsEndpoint())).port,
     output: 'json',
+    onlyCategories: ['performance'],
     formFactor: screen,
     screenEmulation: {mobile: screen === 'mobile'},
-    onlyCategories: ['performance'],
+    preset: screen === 'desktop' ? 'desktop' : undefined,
   })
 
-  await browser.close();
+  await browser.close()
   return lhr.categories.performance.score
 }
 
@@ -47,6 +47,6 @@ async function getReports(screen) {
 
 (async () => {
   console.log('Getting Lighthouse performance scores for mobile and desktop… \n')
-  await getReports('desktop')
   await getReports('mobile')
+  await getReports('desktop')
 })()
