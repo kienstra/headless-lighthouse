@@ -14,13 +14,7 @@ npm install
 npm start <url>
 ```
 
-To get [Lighthouse](https://developers.google.com/web/tools/lighthouse/) test results for `https://example.com`, run:
-
-```bash
-npm start https://example.com
-```
-
-This will run 10 trials on mobile and 10 on desktop.
+To get [Lighthouse](https://developers.google.com/web/tools/lighthouse/) test results for `https://twitter.com/wordpress`, run:
 
 ```
 $ npm start https://twitter.com/wordpress
